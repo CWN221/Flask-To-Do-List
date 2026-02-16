@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="card p-4 shadow-sm">
+    <h4>Dashboard</h4>
+    <p>Total Tasks: {{ total }}</p>
+    <p>Completed Tasks: {{ completed }}</p>
+    <p>Pending Tasks: {{ pending }}</p>
+</div>
+
+{% endblock %}
